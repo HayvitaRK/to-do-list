@@ -1,0 +1,57 @@
+body{
+  background-color: #FFE5E5;
+ font-family: 'Luckiest Guy', cursive;
+}
+h1{
+  color:#FF8080;
+  font-size:100px;
+  text-align:center;
+}
+.input{
+  font-size:30px;
+  text-align: center;
+  color:#FFC8C8;
+ font-family: 'Luckiest Guy', cursive;
+ padding: 1rem 2rem;
+ display: block;
+ width: 100%;
+ border: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 400px;
+}
+
+.input::placeholder {
+  color: #FFC8C8;
+}
+
+.input:focus {
+  outline-color:#FF8080;
+}
+
+.todos {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  color:#FF8080;
+}
+
+.todos li {
+  border-top: 1px solid #e5e5e5;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.todos li.completed {
+  color: #FFC8C8;
+  text-decoration: line-through;
+}
